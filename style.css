@@ -8,6 +8,8 @@ header {
   border-bottom: 1px solid;
   padding: 15px 20px;
   background-color: rgb(188, 207, 249);
+  padding-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .header-container {
@@ -52,6 +54,10 @@ button {
   color: white;
   border-radius: 6px;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(104, 184, 255);
 }
 
 @media (min-width: 768px) {
