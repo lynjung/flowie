@@ -23,7 +23,7 @@ menuIcon.addEventListener("click", function() {
 });
 
 firstButton.addEventListener("mouseover", function() {
-    firstCard.style.backgroundColor = "lightgreen";
+    firstCard.style.backgroundColor = "#daffe9";
     firstCard.style.transform = "scale(1.03)";
 });
 
@@ -37,5 +37,5 @@ secondButton.addEventListener("click", function() {
 });
 
 thirdButton.addEventListener("click", function() {
-    thirdText.innerHTML = "Currently viewing insights...";
+    thirdText.innerHTML = "Currently organizing insights.. 📊";
 });
