@@ -34,7 +34,7 @@ menuToggle.addEventListener("click", function () {
 });
 
 firstButton.addEventListener("mouseover", function () {
-  firstCard.style.backgroundColor = "daffe9";
+  firstCard.style.backgroundColor = "#daffe9";
   firstCard.style.transform = "scale(1.03)";
 });
 
