@@ -84,6 +84,35 @@ button:hover {
   display: block;
 }
 
+.swiper {
+  width: 100%;
+  padding: 20px 0 50px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: lightyellow;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 320px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(0, 34, 109);
+}
+
+.swiper-pagination-bullet-active {
+  background: rgb(0, 34, 109);
+}
+
 @media (min-width: 768px) {
   .nav-desktop {
     display: flex;

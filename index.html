@@ -6,6 +6,7 @@
   <title>Flowie🎧</title>
   <link rel="icon" href="images/flowie-logo.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 </head>
 <body>
 
@@ -24,27 +25,37 @@
     </header>
 
     <main>
-      <section class="card" id="card1">
-        <img src="images/timer.jpg">
-        <h2>Focus Timer</h2>
-        <p id="text1">Stay focused!</p>
-        <button class="button" id="button1">Start Focusing</button>
-      </section>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <section class="card swiper-slide" id="card1">
+            <img src="images/timer.jpg" alt="Focus timer">
+            <h2>Focus Timer</h2>
+            <p id="text1">Stay focused!</p>
+            <button class="button" id="btn1">Start Focusing</button>
+          </section>
 
-      <section class="card" id="card2">
-        <img src="images/planner.jpg">
-        <h2>Task Planner</h2>
-        <p id="text2">Organize your tasks!</p>
-        <button class="button" id="button2">Plan Tasks</button>
-      </section>
+          <section class="card swiper-slide" id="card2">
+            <img src="images/planner.jpg" alt="Task planner">
+            <h2>Task Planner</h2>
+            <p id="text2">Organize your tasks!</p>
+            <button class="button" id="btn2">Plan Tasks</button>
+          </section>
 
-      <section class="card" id="card3">
-        <img src="images/insights.jpg">
-        <h2>Insight Tracker</h2>
-        <p id="text3">Track your productivity!</p>
-        <button class="button" id="button3">View Insights</button>
-      </section>
+          <section class="card swiper-slide" id="card3">
+            <img src="images/insights.jpg" alt="Insight tracker">
+            <h2>Insight Tracker</h2>
+            <p id="text3">Track your productivity!</p>
+            <button class="button" id="btn3">View Insights</button>
+          </section>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
