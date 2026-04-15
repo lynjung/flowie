@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: rgb(228, 248, 255);
+  background-color: rgb(248, 250, 255);
 }
 
 header {
-  border-bottom: 1px solid;
-  padding: 15px 20px;
-  background-color: rgb(188, 207, 249);
-  padding-bottom: 40px;
+  border-bottom: 0.1px solid;
+  border-color: rgb(177, 177, 177);
+  padding: 4px 40px;
+  background-color: rgb(236, 242, 255);
   margin-bottom: 60px;
 }
 
@@ -16,6 +16,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  color: rgb(0, 34, 109);
 }
 
 .nav-desktop {
@@ -26,19 +30,21 @@ header {
   margin-left: 20px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 18px;
+  color: rgb(0, 34, 109); 
 }
 
 .menu-icon {
-  font-size: 45px;
+  font-size: 40px;
+  color: rgb(0, 34, 109);
 }
 
 .card {
   background: lightyellow;
-  margin: 20px auto;
-  padding: 15px;
-  width: 90%;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  margin: 20px 40px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.1);
 }
 
 .card img {
@@ -48,16 +54,16 @@ header {
 
 button {
   margin-top: 10px;
-  padding: 10px 16px;
+  padding: 12px 28px;
   border: none;
-  background: lightblue;
+  background: rgb(141, 177, 255);
   color: white;
-  border-radius: 6px;
+  border-radius: 12px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: rgb(104, 184, 255);
+  background-color: rgb(106, 153, 255);
 }
 
 @media (min-width: 768px) {
@@ -72,7 +78,7 @@ button:hover {
   main {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 8px;
   }
 
   .card {
