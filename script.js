@@ -11,15 +11,8 @@ const secondText = document.querySelector("#text2");
 const thirdButton = document.querySelector("#button3");
 const thirdText = document.querySelector("#text3");
 
-menuIcon.addEventListener("click", function() {
-    logo.innerHTML = "Study Mode🎧";
-
-    if (nav.style.display === "block") {
-        nav.style.display = "none";
-    }
-    else {
-        nav.style.display = "block";
-    }
+menuToggle.addEventListener("click", function() {
+    mobileNav.classList.toggle("show-menu");
 });
 
 firstButton.addEventListener("mouseover", function() {
